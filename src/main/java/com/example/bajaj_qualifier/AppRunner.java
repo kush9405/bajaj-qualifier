@@ -22,9 +22,9 @@ public class AppRunner implements CommandLineRunner {
         headers.setContentType(MediaType.APPLICATION_JSON);
 
         Map<String, String> requestBody = new HashMap<>();
-        requestBody.put("name", "Kushagra Agarwa");
+        requestBody.put("name", "Kushagra Agarwal");
         requestBody.put("regNo", "PES2UG22CS275");
-        requestBody.put("email", "kushagraagarwal2003@gmail.com");
+        requestBody.put("email", "pes2ug22cs275@pesu.pes.edu");
 
         HttpEntity<Map<String, String>> requestEntity = new HttpEntity<>(requestBody, headers);
 
